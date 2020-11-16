@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:25452",
-      "sslPort": 44354
+      "applicationUrl": "http://localhost:15514",
+      "sslPort": 44308
     }
   },
   "profiles": {
@@ -18,7 +18,6 @@
     },
     "devicetwinsimulator": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "launchBrowser": true,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",

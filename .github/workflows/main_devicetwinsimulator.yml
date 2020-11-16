@@ -18,7 +18,7 @@ jobs:
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.402'
+        dotnet-version: '3.1.102'
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'devicetwinsimulator'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cd64a2e430164eedb30ec8da7b2a02ca }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3124b37335144ea4a3b5ba45f15088e2 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
